@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url(https://slidechef.net/wp-content/uploads/2021/06/Free-BMI-Chart-Template-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #223742;
+  margin-top: 2rem;
+  margin-left: 29%;
+  padding-top: 4.3rem;
+  width: 40%;
+  height: 10rem;
+
+  /* padding: 2rem 0; */
+}
+.height {
+  margin: 1.4rem 0;
+}
+#height {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#weight {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#heiht {
+  font-weight: 600;
+  color: #500204;
+}
+#weiht {
+  font-weight: 600;
+  color: #500204;
+}
+
+#submit {
+  color: #000000;
+  padding: 0.2rem;
+  background-color: #e0dfdf;
+  margin: 1rem 25%;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: center;
+  /* padding: 0.7rem 2.8rem; */
+}
+
+.w-guide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(18, 36, 48);
+  margin-left: 29%;
+  padding-top: 48px;
+  width: 40%;
+  height: 12rem;
+  font-size: 19px;
+  /* border: 1.5px solid black; */
+}
+#head {
+  border: 1px solid grey;
+  background-color: #a57373;
+}
+#body {
+  background-color: #7f7878;
+  width: 12px;
+}
+button {
+  width: 213px;
+  height: 93px;
+  cursor: pointer;
+  margin-top: 3px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#results {
+  /* background-color: #eb0808; */
+  /* width: 98px;
+  height: 34px; */
+  font-size: 16px;
+}
