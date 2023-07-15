@@ -5,7 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: url(https://slidechef.net/wp-content/uploads/2021/06/Free-BMI-Chart-Template-4.jpg);
+  background: linear-gradient(
+    to right,
+    rgba(30, 75, 115, 1),
+    rgba(255, 255, 255, 0)
+  );
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14,14 +18,12 @@ form {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #223742;
-  margin-top: 2rem;
+  background: linear-gradient(to top, rgb(10, 86, 153), rgba(20, 38, 49, 0));
+  margin-top: 0.5rem;
   margin-left: 29%;
   padding-top: 4.3rem;
   width: 40%;
-  height: 10rem;
-
-  /* padding: 2rem 0; */
+  height: 20.5rem;
 }
 .height {
   margin: 1.4rem 0;
@@ -60,7 +62,11 @@ form {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(18, 36, 48);
+  background: linear-gradient(
+    rgb(6, 33, 56) to right,
+    rgba(30, 75, 115, 1),
+    rgba(43, 78, 113, 0)
+  );
   margin-left: 29%;
   padding-top: 48px;
   width: 40%;
@@ -78,7 +84,7 @@ form {
 }
 button {
   width: 213px;
-  height: 93px;
+  height: 44px;
   cursor: pointer;
   margin-top: 3px;
   font-size: 20px;
