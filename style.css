@@ -22,8 +22,8 @@ form {
   margin-top: 0.5rem;
   margin-left: 29%;
   padding-top: 4.3rem;
-  width: 40%;
-  height: 20.5rem;
+  width: 42%;
+  height: 16.5rem;
 }
 .height {
   margin: 1.4rem 0;
@@ -68,9 +68,9 @@ form {
     rgba(43, 78, 113, 0)
   );
   margin-left: 29%;
-  padding-top: 48px;
+  padding-top: 12px;
   width: 40%;
-  height: 12rem;
+  height: 18.4rem;
   font-size: 19px;
   /* border: 1.5px solid black; */
 }
@@ -97,4 +97,10 @@ button {
   height: 34px; */
   font-size: 16px;
   color: #fcfbfb;
+}
+caption {
+  font-size: 21px;
+  font-weight: 600;
+  color: #201f1f;
+  background: #a09a9a;
 }

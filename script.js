@@ -11,7 +11,8 @@ form.addEventListener("submit", function (e) {
   } else if (weight === "" || weight < 0 || isNaN(weight)) {
     results.innerHTML = "Please enter a valid weight";
   } else {
-    const bmi = (weight / ((height * height) / 10000)).toFixed(2);
+    // const bmi = (weight / ((height * height) / 10000)).toFixed(2);
+    const bmi = ((weight / height) * height) / 100;
     if (bmi < 18.4) {
       results.innerHTML = `<span>${bmi}: Underweight</span>`;
       results.style.backgroundColor = "#fc4503";
